@@ -6,14 +6,14 @@ Open-source WordPress themes published through [VelvetPress](https://velvetpress
 
 | Theme | Description | Path |
 |-------|-------------|------|
-| VelvetPress Starter | Minimal block theme shell — install the VelvetPress plugin alongside it for update management | [`velvetpress-starter/`](velvetpress-starter/) |
+| VP Starter Theme | Minimal block theme shell — install the VelvetPress plugin alongside it for update management | [`vp-starter-theme/`](vp-starter-theme/) |
 
 ## Local development
 
 Each theme is a standard WordPress block theme. To work on one locally, symlink or copy the theme directory into your WordPress install's `wp-content/themes/`:
 
 ```bash
-ln -s "$(pwd)/velvetpress-starter" /path/to/wp-content/themes/velvetpress-starter
+ln -s "$(pwd)/vp-starter-theme" /path/to/wp-content/themes/vp-starter-theme
 ```
 
 ## Publishing a release
